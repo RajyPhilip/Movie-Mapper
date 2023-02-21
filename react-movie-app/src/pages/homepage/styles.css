@@ -1,0 +1,22 @@
+.favorites-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.favorites{
+    display: flex;
+    gap: 25px;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+.items{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+    justify-content: center;
+    
+}
+.emptyfav{
+    color: white;
+    width: 100%;
+    font-size: 20px;
+}
